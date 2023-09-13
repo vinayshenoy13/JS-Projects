@@ -2,15 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Gilroy";
+  font-family: "Calistoga";
 }
 
-html,
-body {
+html {
   height: 100%;
   width: 100%;
 }
 body {
+  height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,12 +24,38 @@ body {
   background-color: white;
   border-radius: 10px;
   padding: 30px;
-
 }
 
-#card img{
-    height: 50%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
+#card img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+#card h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+#card h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+#card button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: cadetblue;
 }
