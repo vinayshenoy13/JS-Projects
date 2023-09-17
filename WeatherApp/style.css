@@ -32,6 +32,8 @@ body {
 }
 
 .container {
+  align-items: center;
+  justify-content: center;
   border-radius: 25px;
   -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
@@ -141,7 +143,7 @@ body {
 
 .today-info > div .title {
   float: left;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .today-info > div .value {
